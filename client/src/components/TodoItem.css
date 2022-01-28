@@ -1,0 +1,27 @@
+.todo-item__body{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom:30px ;
+    position: relative;
+}
+.starLogo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.todo-item_delete{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.deleteLogo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    
+}

@@ -1,0 +1,90 @@
+.new-todo_body{
+    width: 300px;
+    height: 300px;
+    border: 8px solid black;
+    border-radius: 20px;
+}
+.new-todo_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin:5px;
+}
+.new-todo_content{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.new-todo_input-text{
+    width: 97%;
+    height: 30px;
+    font-size: 1.3rem;
+}
+.new-todo_label{
+    font-size: 1rem;
+    margin: 5px;
+}
+.new-todo_checkbox{
+    margin: 10px;
+}
+.new-todo_input-check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.new-todo_color-button{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+}
+.submit{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(99, 248, 99);
+    color: white;
+    font-size: 1.1rem;
+}
+.submit:hover{
+    background-color: rgb(54, 253, 54);
+}
+.color1{
+    background-color: rgb(254,200,112);
+}
+.color1:hover{
+    background-color: rgb(250, 178, 63);
+}
+.color2{
+    background-color: rgb(253,154,112);
+}
+.color2:hover{
+    background-color: rgb(253, 122, 66);
+}
+.color3{
+    background-color: rgb(227,236,143);
+}
+.color3:hover{
+    background-color: rgb(233, 250, 84);
+}
+.color4{
+    background-color: rgb(181,145,251);
+}
+.color4:hover{
+    background-color: rgb(142, 87, 253);
+}
+.color5{
+    background-color: rgb(0,211,254);
+}
+.color5:hover{
+    background-color: rgb(0, 154, 185);
+}

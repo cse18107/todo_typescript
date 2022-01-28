@@ -1,8 +1,58 @@
 .body{
-    padding: 50px;
+    margin: 0;
+    padding-top: 0;
 }
 .container{
+    padding: 50px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    row-gap: 6%;
+    row-gap: 4%;
+}
+@media only screen and (max-width:1724px){
+    .container{
+        grid-template-columns: repeat(5,20.5%);
+        row-gap: 3.8%;
+    }
+}
+@media only screen and (max-width:1664px){
+    .container{
+        grid-template-columns: repeat(5,20.9%);
+        row-gap: 3.6%;
+    }
+}
+@media only screen and (max-width:1638px){
+    .container{
+        grid-template-columns: repeat(4,25.9%);
+        row-gap: 3.3%;
+    }
+}
+@media only screen and (max-width:1344px){
+    .container{
+        grid-template-columns: repeat(4,26%);
+        row-gap: 3.3%;
+    }
+}
+@media only screen and (max-width:1330px){
+    .container{
+        grid-template-columns: repeat(3,35%);
+        row-gap: 2.7%;
+    }
+}
+@media only screen and (max-width:1020px){
+    .container{
+        grid-template-columns: repeat(2,49%);
+        row-gap: 2.7%;
+    }
+}
+@media only screen and (max-width:784px){
+    .container{
+        grid-template-columns: repeat(2,55%);
+        row-gap: 2.7%;
+    }
+}
+@media only screen and (max-width:702px){
+    .container{
+        grid-template-columns: repeat(1,55%);
+        row-gap: 1%;
+    }
 }
